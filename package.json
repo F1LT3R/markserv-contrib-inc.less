@@ -1,0 +1,42 @@
+{
+  "name": "markserv-contrib-inc.less",
+  "version": "1.0.0",
+  "description": "Convert a CSS file for HTML inclusion",
+  "main": "lib/inc-less.js",
+  "repository": "git@github.com:f1lt3r/markserv-contrib-inc.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "f1lt3r",
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2,
+    "globals": [
+      "it",
+      "describe",
+      "beforeEach"
+    ],
+    "rules": {
+      "import/no-dynamic-require": 0,
+      "no-multi-str": 0,
+      "no-use-extend-native": 0
+    },
+    "overrides": [
+      {
+        "files": "**/Markconf.*",
+        "rules": {
+          "unicorn/filename-case": [
+            "error",
+            {
+              "case": "pascalCase"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
