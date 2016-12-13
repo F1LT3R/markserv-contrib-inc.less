@@ -1,6 +1,6 @@
 {
   "name": "markserv-contrib-inc.less",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Convert a CSS file for HTML inclusion",
   "main": "lib/inc.less.js",
   "repository": "git@github.com:f1lt3r/markserv-contrib-inc.less",
@@ -10,6 +10,7 @@
   "author": "f1lt3r",
   "license": "LGPL-3.0",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "less": "^2.4.0"
   },
   "devDependencies": {
@@ -17,7 +18,6 @@
   },
   "xo": {
     "esnext": true,
-    "space": 2,
     "globals": [
       "it",
       "describe",
