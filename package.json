@@ -1,7 +1,7 @@
 {
   "name": "markserv-contrib-inc.less",
-  "version": "1.0.5",
-  "description": "Convert a CSS file for HTML inclusion",
+  "version": "1.0.6",
+  "description": "Convert a CSS file for HTML inclusion. hello",
   "main": "lib/inc.less.js",
   "repository": "git@github.com:f1lt3r/markserv-contrib-inc.less",
   "scripts": {
